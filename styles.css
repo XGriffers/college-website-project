@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+body {
+
+background-color: #D6CCA9;
+
+font-family: Arial, Tahoma, sans-serif;
+
+color: #000000;
+
+}
+
+h1 {
+
+color: #ffffff;
+
+}
+
+header {
+
+background-color: #4f2412;
+
+color: #ffffff;
+
+text-align: center;
+
+padding: 5px;
+
+width: 80%;
+
+margin-left: 10%;
+
+}
+
+#container {
+
+width: 100%;
+
+}
+main {
+
+    width: 80%;
+    
+    background-color: #D6CCA9;
+    
+    float: left;
+    
+    padding: 5px;
+    
+    margin-left: 10%;
+    
+    }
+    nav {
+
+        color: #000000;
+        
+        padding: 5px;
+        
+        width: 80%;
+        
+        margin-left: 10%;
+        
+        font-weight: bold;
+        
+        }
+        
+        nav ul {
+        
+        list-style: none;
+        
+        }
+        
+        nav ul li {
+        
+        float: left;
+        
+        padding: 5px;
+        
+        }
+        
+        nav ul li a:link, nav ul li a:visited {
+        
+        display: block;
+        
+        width: 150px;
+        
+        margin-right: 4px;
+        
+        color: #000000;
+        
+        padding: 2px 4px 2px 4px;
+        
+        background-color: #ffffff;
+        
+       
+        
+        }
+        
+        nav ul li a:hover {
+        
+        color: #ffffff;
+        
+        background-color: #c6ba9e;
+
+        text-decoration:underline wavy #000000; /*only works in chrome*/
+    }
+
+         
+
+table{
+
+    width: 50%;
+    border: 2px solid #000000;
+    background: #D6CCA9;
+    border-spacing: 3.0px;
+}
+#complementary_stuff{
+    list-style-type: upper-roman;
+}
+
+.price{
+
+    border: 2px solid #000000;
+    background-color: #fffdd0;
+}
+
+input[type="submit"]{
+    width: 10%;
+    color: #f5f5f5;
+    background-color: #0000ff;
+}
+input[type="reset"]{
+    width: 10%;
+    color: #f5f5f5;
+    background-color: #0000ff;
+}
+.CCFrm{
+    
+    width: 20%;
+    border-color: #0000ff;
+    border-spacing: 2px;
+    color: #f5f5f5;
+    background-color: #0000ff;
+    
+}
+    
+    th{
+        background: #fffdd0;
+        border: 2px solid #000000;
+        padding: 1px;
+    }  
+    
+    footer {
+    
+    clear: both;
+    
+    background-color:  #000000;
+    
+    color: #ffffff;
+    
+    text-align: center;
+    
+    margin-left: 10%;
+    
+    padding: 5px;
+    
+    font-size: 12pt;
+    
+    width: 80%;
+    
+    }
